@@ -82,10 +82,6 @@ h6 {
   text-align: left;
 }
 
-
-
-
-
 /*--------------------------------------------------------------
 # Logo
 --------------------------------------------------------------*/
@@ -1152,6 +1148,7 @@ section {
 .about .bg-image {
   background-repeat: no-repeat;
   background-size: auto;
+  border-radius: 10px;
 }
 
 .about .member {
@@ -1162,13 +1159,12 @@ section {
   background: #fff; /* fallback */
   background: linear-gradient(270deg, #eb8d01ad, #000000);
   background: -webkit-linear-gradient(right, #eb8d01ad, #000000);
-  height: 230px;
+  min-height: 230px;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .about .member .pic {
-  overflow: hidden;
   width: 100%;              /* Match the container width */
   height: 100%;             /* Match the container height */
   display: flex;            /* Use flexbox for alignment */
@@ -1259,6 +1255,25 @@ section {
 
 .about .member .social a+a {
   margin-left: 8px;
+}
+
+
+@media (max-width: 768px) { /* For small screens */
+  .about .member .pic i {
+    font-size: 3rem;          
+  }
+}
+
+@media (max-width: 576px) { /* For extra small screens */
+  .about .member .pic {
+    display: none;
+  }
+  .about .member .pic i {
+    display: none;
+  }
+  .about .member .member-info {
+    padding-left: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
