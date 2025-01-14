@@ -319,7 +319,7 @@
 
   function playMobileVideo() {
       const mobileVideoList = [
-         
+        'assets/video/video_preview_h264.mp4',
       ];
 
       const videoElement = document.getElementById('bgVideo');
