@@ -2331,8 +2331,6 @@ section {
   width: 70%;
 }
 
-
-
 .carousel-indicators {
   width: initial;
   margin-left: initial;
@@ -2363,6 +2361,12 @@ section {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
+
+.carousel-indicators li:hover,
+.carousel-indicators .active  {
+  background: #9f5e04;
+}
+
 
 .carousel-item img{
   border-radius: 10px;
