@@ -2604,15 +2604,9 @@ section {
 
 
 .product .carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .product .carousel-inner {

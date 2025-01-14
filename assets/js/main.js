@@ -319,13 +319,7 @@
 
   function playMobileVideo() {
       const mobileVideoList = [
-          'assets/video/output_time_0.mp4',
-          'assets/video/output_time_1.mp4',
-          'assets/video/output_time_2.mp4',
-          'assets/video/output_time_3.mp4',
-          'assets/video/output_time_4.mp4',
-          'assets/video/output_time_5.mp4',
-          'assets/video/output_time_6.mp4',
+         
       ];
 
       const videoElement = document.getElementById('bgVideo');
